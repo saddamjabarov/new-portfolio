@@ -1,0 +1,96 @@
+.page {
+  padding-top: 125px;
+  position: relative;
+  &__title16 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    position: relative;
+  }
+  &__title36 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .divider {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 60px;
+    height: 1px;
+    border: 2px solid #ffa501;
+  }
+
+  &__wrapper {
+    margin-top: 60px;
+    display: grid;
+    grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
+    grid-gap: 13px;
+  }
+  &__item {
+    padding: 30px 30px 25px 30px;
+    border: 1px solid #000000;
+  }
+  &__img {
+    width: 45.77px;
+    height: 65px;
+  }
+  &__title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  &__descr {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+  }
+  &__skills {
+    margin-top: 120px;
+    display: grid;
+    grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
+    column-gap: 45px;
+    row-gap: 35px;
+
+    &-item {
+      display: grid;
+      grid-template: minmax(21px, auto) 14px/200px 35px;
+      justify-content: space-between;
+      align-content: space-between;
+    }
+    &-title {
+      position: relative;
+      padding: 2px 0 0 13px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 21px;
+      color: #000000;
+    }
+    &-counter {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: #000000;
+    }
+    &-line {
+      width: 350px;
+      height: 14px;
+      background-color: #e8e4de;
+      border-radius: 4px;
+      grid-column: 1/3;
+    }
+    span {
+      display: block;
+      height: 100%;
+      background-color: #ffa501;
+      border-radius: 4px;
+    }
+  }
+}

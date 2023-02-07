@@ -1,0 +1,131 @@
+.resume {
+  padding-top: 125px;
+
+  &__title16 {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      top: -6px;
+      transform: translate(3px);
+      border-radius: 100%;
+      z-index: -1;
+      background: #ffa501;
+    }
+  }
+  &__title36 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+  }
+  &__divider {
+    width: 60px;
+    border: 1px solid #ffa501;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  &__wrapper {
+    padding: 0 70px 0 70px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 413px);
+    column-gap: 136px;
+  }
+  &__item {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 33px;
+      height: 1px;
+      top: 67px;
+      left: 8px;
+      background-color: #000000;
+      transform: rotate(180deg);
+    }
+    &-head {
+      position: relative;
+      padding-left: 100px;
+      padding-top: 45px;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-left: 45px;
+    position: relative;
+    &-title {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000000;
+      position: relative;
+      padding-left: 45px;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      left: 0px;
+      top: 8px;
+      border-radius: 100%;
+      background: #ffa501;
+    }
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+  }
+  li {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      top: -7px;
+      left: 7px;
+      width: 1px;
+      height: 100%;
+      background: #000000;
+    }
+  }
+  &__descr {
+    padding-left: 45px;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+  }
+  &__icon {
+    position: absolute;
+    top: 62px;
+    left: 59px;
+    width: 19.79px;
+    height: 25px;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      top: -14px;
+      left: -18px;
+      border-radius: 100%;
+      z-index: -1;
+      background: #ffa501;
+    }
+  }
+}
