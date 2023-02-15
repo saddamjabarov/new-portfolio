@@ -8,6 +8,9 @@
   visibility: hidden;
   opacity: 0;
   transition: all 0.7s;
+  &.close {
+    display: none;
+  }
   &.active {
     left: 0;
     visibility: visible;
@@ -35,6 +38,7 @@
     line-height: 36px;
     padding-bottom: 15px;
     position: relative;
+
     &::before {
       content: '';
       display: block;
@@ -46,6 +50,7 @@
       border: 1px solid #000000;
       border-radius: 100%;
     }
+
     &:hover {
       &::before {
         background-color: #ffffff;
