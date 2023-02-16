@@ -222,6 +222,7 @@
     &__skills {
       padding-top: 50px;
       grid-template-columns: repeat(1, 260px);
+      justify-content: flex-start;
     }
     &__photo {
       width: 300px;

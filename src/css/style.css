@@ -1123,6 +1123,9 @@
     padding-top: 50px;
     -ms-grid-columns: (260px)[1];
     grid-template-columns: repeat(1, 260px);
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .about__photo {
     width: 300px;
