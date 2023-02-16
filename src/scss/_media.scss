@@ -163,6 +163,12 @@
       grid-row: unset;
     }
   }
+  .page {
+    &__wrapper {
+      padding-left: 0;
+      justify-content: center;
+    }
+  }
   .contacts {
     padding-top: 40px;
     &__photo {
@@ -264,6 +270,9 @@
   }
   .page {
     padding-top: 47px;
+    &__wrapper {
+      justify-content: center;
+    }
     &__title16 {
       left: -54px;
     }

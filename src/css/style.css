@@ -1063,6 +1063,12 @@
     width: 94%;
     grid-row: unset;
   }
+  .page__wrapper {
+    padding-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .contacts {
     padding-top: 40px;
   }
@@ -1168,6 +1174,11 @@
   }
   .page {
     padding-top: 47px;
+  }
+  .page__wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .page__title16 {
     left: -54px;
