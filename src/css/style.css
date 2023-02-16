@@ -853,6 +853,7 @@
   width: 100%;
   height: 100%;
   resize: none;
+  padding: 20px;
 }
 .contacts__textrea label {
   position: absolute;
@@ -875,6 +876,7 @@
   border: none;
   margin-top: 55px;
   color: #000000;
+  cursor: pointer;
 }
 
 @media (max-width: 1439px) {
