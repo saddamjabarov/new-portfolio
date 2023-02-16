@@ -228,12 +228,14 @@
   }
   .about {
     &__wrapper {
-      padding-left: 11px;
+      padding-left: 30px;
       grid-template: 340px auto auto / 1fr;
     }
-
-    &__skills {
+    &__descr {
       padding-top: 50px;
+    }
+    &__skills {
+      padding-top: 10px;
       grid-template-columns: repeat(1, 260px);
       justify-content: flex-start;
     }

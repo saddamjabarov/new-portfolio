@@ -1123,13 +1123,16 @@
     left: 88px;
   }
   .about__wrapper {
-    padding-left: 11px;
+    padding-left: 30px;
     -ms-grid-rows: 340px auto auto;
     -ms-grid-columns: 1fr;
         grid-template: 340px auto auto/1fr;
   }
-  .about__skills {
+  .about__descr {
     padding-top: 50px;
+  }
+  .about__skills {
+    padding-top: 10px;
     -ms-grid-columns: (260px)[1];
     grid-template-columns: repeat(1, 260px);
     -webkit-box-pack: start;
