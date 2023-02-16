@@ -1100,6 +1100,9 @@
   .promo__btns {
     margin-top: 32px;
   }
+  .menu {
+    overflow: scroll;
+  }
   .menu__block {
     width: 100%;
     height: 100%;
