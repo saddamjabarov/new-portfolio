@@ -90,8 +90,11 @@
         grid-template-columns: 30px 320px;
       }
     }
-    &__photo img {
-      height: 100%;
+
+    .photo {
+      // height: 100%;
+      // display: grid;
+      // grid-row: 1/5;
     }
   }
   .resume {
@@ -146,6 +149,9 @@
   .about {
     padding-top: 40px;
     justify-content: center;
+    &__descr {
+      padding-top: 330px;
+    }
     &__wrapper {
       grid-template: 400px auto auto / 1fr;
     }

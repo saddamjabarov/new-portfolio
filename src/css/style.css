@@ -984,9 +984,6 @@
     -ms-grid-columns: 30px 320px;
     grid-template-columns: 30px 320px;
   }
-  .about__photo img {
-    height: 100%;
-  }
   .resume__wrapper {
     grid-template-columns: repeat(auto-fit, 413px);
     -webkit-box-pack: center;
@@ -1042,6 +1039,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .about__descr {
+    padding-top: 330px;
   }
   .about__wrapper {
     -ms-grid-rows: 400px auto auto;
