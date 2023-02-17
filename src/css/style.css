@@ -1124,6 +1124,9 @@
   .menu__social {
     left: 88px;
   }
+  .about {
+    padding-top: 10px;
+  }
   .about__wrapper {
     padding-left: 30px;
     -ms-grid-rows: 340px auto auto;
@@ -1134,7 +1137,7 @@
     padding-top: 50px;
   }
   .about__skills {
-    padding-top: 10px;
+    padding-top: 40px;
     -ms-grid-columns: (260px)[1];
     grid-template-columns: repeat(1, 260px);
     -webkit-box-pack: start;
@@ -1151,9 +1154,6 @@
   .about__text {
     width: 300px;
     font-size: 14px;
-  }
-  .about__photo {
-    width: 94%;
   }
   .resume__wrapper {
     grid-template-columns: repeat(auto-fit, 290px);
