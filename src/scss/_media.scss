@@ -136,6 +136,11 @@
   .container {
     max-width: 540px;
   }
+  .menu {
+    &__social {
+      bottom: 30px;
+    }
+  }
   .promo {
     &__title16 {
       line-height: 29px;
