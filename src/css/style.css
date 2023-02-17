@@ -1078,6 +1078,9 @@
   .contacts__photo {
     display: none;
   }
+  .contacts__title16 {
+    left: 12px;
+  }
   .contacts__wrapper {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
