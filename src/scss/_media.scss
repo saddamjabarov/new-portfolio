@@ -277,19 +277,23 @@
   .page {
     padding-top: 47px;
     &__wrapper {
+      padding-right: 130px;
+    }
+    &__skills {
       justify-content: center;
+      padding-right: 85px;
     }
     &__title16 {
-      left: -54px;
+      left: -82px;
     }
     &__title36 {
-      margin-left: 101px;
+      margin-left: 78px;
       font-size: 24px;
       width: 208px;
       line-height: 36px;
     }
     .divider {
-      margin-left: 175px;
+      margin-left: 149px;
       margin-top: 15px;
     }
   }

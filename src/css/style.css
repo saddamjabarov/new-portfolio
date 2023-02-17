@@ -1182,21 +1182,25 @@
     padding-top: 47px;
   }
   .page__wrapper {
+    padding-right: 130px;
+  }
+  .page__skills {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-right: 85px;
   }
   .page__title16 {
-    left: -54px;
+    left: -82px;
   }
   .page__title36 {
-    margin-left: 101px;
+    margin-left: 78px;
     font-size: 24px;
     width: 208px;
     line-height: 36px;
   }
   .page .divider {
-    margin-left: 175px;
+    margin-left: 149px;
     margin-top: 15px;
   }
   .contacts {
