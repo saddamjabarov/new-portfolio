@@ -1029,8 +1029,11 @@
   .container {
     max-width: 540px;
   }
+  .menu {
+    height: 100%;
+  }
   .menu__social {
-    bottom: 30px;
+    top: 500px;
   }
   .promo__title16 {
     line-height: 29px;
