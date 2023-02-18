@@ -233,7 +233,8 @@
   .about {
     padding-top: 10px;
     &__wrapper {
-      padding-left: 30px;
+      margin: 0 auto;
+
       grid-template: 340px auto auto / 1fr;
     }
     &__descr {
@@ -261,6 +262,7 @@
     &__wrapper {
       grid-template-columns: 300px;
       justify-content: space-between;
+      margin: 0 auto;
       padding-left: 0;
       padding-top: 0;
       gap: 40px;
@@ -283,24 +285,31 @@
   .page {
     padding-top: 47px;
     &__wrapper {
-      justify-content: center;
+      margin: 0 auto;
+      margin-top: 20px;
     }
     &__skills {
-      justify-content: center;
-      padding-right: 85px;
-    }
-    &__title16 {
-      left: -19px;
+      grid-template-columns: 300px;
+      margin: 0 auto;
+      margin-top: 40px;
+      &-line {
+        width: auto;
+      }
     }
     &__title36 {
-      margin-left: 134px;
       font-size: 24px;
-      width: 208px;
       line-height: 36px;
     }
-    .divider {
-      margin-left: 204px;
-      margin-top: 15px;
+  }
+  .price {
+    &__wrapper {
+      margin: 0 auto;
+      grid-template-columns: 300px;
+    }
+    &__item {
+      &::before {
+        left: 9px;
+      }
     }
   }
   .contacts {
@@ -312,7 +321,7 @@
       display: none;
     }
     &__form {
-      grid-template: 45px 190px 45px / repeat(2, 250px);
+      grid-template: 45px 190px 45px / repeat(2, 145px);
     }
   }
 }

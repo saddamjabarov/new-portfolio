@@ -1,3 +1,26 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
 .promo {
   min-height: 100vh;
   position: relative;
@@ -1131,7 +1154,7 @@
     padding-top: 10px;
   }
   .about__wrapper {
-    padding-left: 30px;
+    margin: 0 auto;
     -ms-grid-rows: 340px auto auto;
     -ms-grid-columns: 1fr;
         grid-template: 340px auto auto/1fr;
@@ -1167,6 +1190,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin: 0 auto;
     padding-left: 0;
     padding-top: 0;
     gap: 40px;
@@ -1189,28 +1213,29 @@
     padding-top: 47px;
   }
   .page__wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
   }
   .page__skills {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-right: 85px;
+    -ms-grid-columns: 300px;
+    grid-template-columns: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
   }
-  .page__title16 {
-    left: -19px;
+  .page__skills-line {
+    width: auto;
   }
   .page__title36 {
-    margin-left: 134px;
     font-size: 24px;
-    width: 208px;
     line-height: 36px;
   }
-  .page .divider {
-    margin-left: 204px;
-    margin-top: 15px;
+  .price__wrapper {
+    margin: 0 auto;
+    -ms-grid-columns: 300px;
+    grid-template-columns: 300px;
+  }
+  .price__item::before {
+    left: 9px;
   }
   .contacts {
     padding-top: 40px;
@@ -1224,29 +1249,7 @@
   }
   .contacts__form {
     -ms-grid-rows: 45px 190px 45px;
-    -ms-grid-columns: (250px)[2];
-        grid-template: 45px 190px 45px/repeat(2, 250px);
+    -ms-grid-columns: (145px)[2];
+        grid-template: 45px 190px 45px/repeat(2, 145px);
   }
-}
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul,
-ol,
-li {
-  list-style-type: none;
-}
-
-.container {
-  width: 1140px;
-  margin: 0 auto;
 }

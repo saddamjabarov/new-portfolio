@@ -1,16 +1,7 @@
-@import 'promo';
-@import 'buttons';
-@import 'sidepanel';
-@import 'hamburger';
-@import 'menu';
-@import 'about';
-@import 'resume';
-@import 'page';
-@import 'portfolio';
-@import 'price';
-@import 'contacts';
-@import 'variables';
-@import 'media';
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -25,7 +16,17 @@ ol,
 li {
   list-style-type: none;
 }
-.container {
-  width: 1140px;
-  margin: 0 auto;
-}
+
+@import 'promo';
+@import 'buttons';
+@import 'sidepanel';
+@import 'hamburger';
+@import 'menu';
+@import 'about';
+@import 'resume';
+@import 'page';
+@import 'portfolio';
+@import 'price';
+@import 'contacts';
+@import 'variables';
+@import 'media';
