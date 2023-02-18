@@ -90,12 +90,6 @@
         grid-template-columns: 30px 320px;
       }
     }
-
-    .photo {
-      // height: 100%;
-      // display: grid;
-      // grid-row: 1/5;
-    }
   }
   .resume {
     &__wrapper {
@@ -315,13 +309,27 @@
   .contacts {
     padding-top: 40px;
     &__wrapper {
-      grid-template-columns: 300px;
+      grid-template-columns: 1fr;
     }
     &__photo {
       display: none;
     }
     &__form {
-      grid-template: 45px 190px 45px / repeat(2, 145px);
+      grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+      row-gap: 25px;
+      justify-content: center;
+    }
+    &__input {
+      grid-column: 1/2;
+      grid-template-columns: 1fr;
+      row-gap: 20px;
+    }
+    &__textrea {
+      margin-top: 0;
+      height: 50%;
+    }
+    &__btn {
+      margin-top: -65px;
     }
   }
 }

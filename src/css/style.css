@@ -1241,15 +1241,34 @@ li {
     padding-top: 40px;
   }
   .contacts__wrapper {
-    -ms-grid-columns: 300px;
-    grid-template-columns: 300px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .contacts__photo {
     display: none;
   }
   .contacts__form {
-    -ms-grid-rows: 45px 190px 45px;
-    -ms-grid-columns: (145px)[2];
-        grid-template: 45px 190px 45px/repeat(2, 145px);
+    -ms-grid-rows: 45px 25px 45px 25px 190px 25px minmax(45px, auto);
+    -ms-grid-columns: 1fr;
+        grid-template: 45px 45px 190px minmax(45px, auto)/1fr;
+    row-gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacts__input {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .contacts__textrea {
+    margin-top: 0;
+    height: 50%;
+  }
+  .contacts__btn {
+    margin-top: -65px;
   }
 }
