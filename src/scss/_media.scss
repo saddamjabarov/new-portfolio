@@ -136,11 +136,7 @@
   .container {
     max-width: 540px;
   }
-  .menu {
-    // &__social {
-    //   top: 500px;
-    // }
-  }
+
   .promo {
     &__title16 {
       line-height: 29px;
@@ -199,7 +195,7 @@
 
 @media (max-width: 576px) {
   .container {
-    width: 100%;
+    width: 90%;
     padding: 0 10px;
   }
   .promo {
@@ -285,7 +281,8 @@
   .page {
     padding-top: 47px;
     &__wrapper {
-      padding-right: 130px;
+      // padding-right: 130px;
+      justify-content: center;
     }
     &__skills {
       justify-content: center;
@@ -307,6 +304,9 @@
   }
   .contacts {
     padding-top: 40px;
+    &__wrapper {
+      grid-template-columns: 300px;
+    }
     &__photo {
       display: none;
     }
