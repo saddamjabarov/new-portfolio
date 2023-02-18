@@ -257,11 +257,13 @@
     }
   }
   .resume {
+    padding-top: 45px;
     &__wrapper {
-      grid-template-columns: repeat(auto-fit, 290px);
+      grid-template-columns: 300px;
       justify-content: space-between;
       padding-left: 0;
       padding-top: 0;
+      gap: 40px;
     }
     &__title16 {
       width: 46px;
@@ -281,7 +283,6 @@
   .page {
     padding-top: 47px;
     &__wrapper {
-      // padding-right: 130px;
       justify-content: center;
     }
     &__skills {
@@ -289,16 +290,16 @@
       padding-right: 85px;
     }
     &__title16 {
-      left: -82px;
+      left: -19px;
     }
     &__title36 {
-      margin-left: 78px;
+      margin-left: 134px;
       font-size: 24px;
       width: 208px;
       line-height: 36px;
     }
     .divider {
-      margin-left: 149px;
+      margin-left: 204px;
       margin-top: 15px;
     }
   }

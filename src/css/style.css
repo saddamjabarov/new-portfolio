@@ -1158,13 +1158,18 @@
     width: 300px;
     font-size: 14px;
   }
+  .resume {
+    padding-top: 45px;
+  }
   .resume__wrapper {
-    grid-template-columns: repeat(auto-fit, 290px);
+    -ms-grid-columns: 300px;
+    grid-template-columns: 300px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-left: 0;
     padding-top: 0;
+    gap: 40px;
   }
   .resume__title16 {
     width: 46px;
@@ -1195,16 +1200,16 @@
     padding-right: 85px;
   }
   .page__title16 {
-    left: -82px;
+    left: -19px;
   }
   .page__title36 {
-    margin-left: 78px;
+    margin-left: 134px;
     font-size: 24px;
     width: 208px;
     line-height: 36px;
   }
   .page .divider {
-    margin-left: 149px;
+    margin-left: 204px;
     margin-top: 15px;
   }
   .contacts {
