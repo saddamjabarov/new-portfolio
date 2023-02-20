@@ -1196,7 +1196,15 @@ li {
     margin: 0 auto;
     padding-left: 0;
     padding-top: 40px;
-    gap: 40px;
+    gap: 25px;
+  }
+  .resume__collum-item {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .resume__descr {
+    padding-left: 27px;
   }
   .resume__title16 {
     width: 46px;
@@ -1211,6 +1219,9 @@ li {
   .resume__divider {
     margin-top: 15px;
     margin-left: 113px;
+  }
+  .resume__subtitle {
+    margin-bottom: 5px;
   }
   .page {
     padding-top: 47px;

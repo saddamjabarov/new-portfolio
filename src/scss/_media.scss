@@ -262,7 +262,15 @@
       margin: 0 auto;
       padding-left: 0;
       padding-top: 40px;
-      gap: 40px;
+      gap: 25px;
+    }
+    &__collum {
+      &-item {
+        grid-row: 2/3;
+      }
+    }
+    &__descr {
+      padding-left: 27px;
     }
     &__title16 {
       width: 46px;
@@ -277,6 +285,9 @@
     &__divider {
       margin-top: 15px;
       margin-left: 113px;
+    }
+    &__subtitle {
+      margin-bottom: 5px;
     }
   }
   .page {
