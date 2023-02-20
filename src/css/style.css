@@ -975,6 +975,9 @@ li {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .page__skills-item {
+    row-gap: 38px;
+  }
   .portfolio__wrapper {
     grid-template-columns: repeat(auto-fit, 280px);
     -webkit-box-pack: justify;
@@ -1083,6 +1086,9 @@ li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .page__skills-item {
+    row-gap: 10px;
   }
   .page__skills-title {
     padding-top: 32px;

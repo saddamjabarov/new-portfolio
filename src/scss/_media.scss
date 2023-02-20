@@ -40,6 +40,9 @@
     &__skills {
       grid-template-columns: repeat(auto-fit, 350px);
       justify-content: space-between;
+      &-item {
+        row-gap: 38px;
+      }
     }
   }
   .portfolio {
@@ -134,6 +137,9 @@
     &__skills {
       row-gap: 20px;
       justify-content: center;
+      &-item {
+        row-gap: 10px;
+      }
       &-title {
         padding-top: 32px;
       }
