@@ -860,12 +860,10 @@ li {
   margin-top: 30px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 45px 190px 45px;
-  -ms-grid-columns: 1fr 20px 1fr;
+  -ms-grid-rows: 45px 16px 190px 16px 45px;
+  -ms-grid-columns: 1fr 16px 1fr;
       grid-template: 45px 190px 45px/repeat(2, 1fr);
-  -webkit-column-gap: 20px;
-     -moz-column-gap: 20px;
-          column-gap: 20px;
+  grid-gap: 16px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1113,8 +1111,8 @@ li {
     grid-template-columns: 400px;
   }
   .contacts__form {
-    -ms-grid-rows: 45px 190px 45px;
-    -ms-grid-columns: (195px)[1];
+    -ms-grid-rows: 45px 16px 190px 16px 45px;
+    -ms-grid-columns: 195px;
         grid-template: 45px 190px 45px/repeat(1, 195px);
   }
   .contacts__btn {
@@ -1238,8 +1236,8 @@ li {
     grid-template-columns: 1fr;
   }
   .contacts__form {
-    -ms-grid-rows: 45px 190px 45px;
-    -ms-grid-columns: (250px)[2];
+    -ms-grid-rows: 45px 16px 190px 16px 45px;
+    -ms-grid-columns: 250px 16px 250px;
         grid-template: 45px 190px 45px/repeat(2, 250px);
   }
   .resume > .resume1 {
