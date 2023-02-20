@@ -999,8 +999,8 @@ li {
   }
   .contacts__wrapper {
     padding: 0;
-    -ms-grid-columns: 400px 520px;
-    grid-template-columns: 400px 520px;
+    -ms-grid-columns: 400px 500px;
+    grid-template-columns: 400px 500px;
   }
   .contacts__form {
     -ms-grid-rows: 45px 190px 45px;
