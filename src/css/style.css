@@ -416,9 +416,30 @@ li {
   display: grid;
   -ms-grid-columns: 413px 136px 413px;
   grid-template-columns: repeat(2, 413px);
+      grid-template-areas: "resume1" "resume3" "resume2" "resume4";
   -webkit-column-gap: 136px;
      -moz-column-gap: 136px;
           column-gap: 136px;
+}
+.resume__collum .resume1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: resume1;
+}
+.resume__collum .resume2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: resume2;
+}
+.resume__collum .resume3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: resume3;
+}
+.resume__collum .resume4 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: resume4;
 }
 .resume__item {
   position: relative;
@@ -1200,18 +1221,48 @@ li {
   .resume__wrapper {
     -ms-grid-columns: 300px;
     grid-template-columns: 300px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+        grid-template-areas: "resume1" "resume3" "resume2" "resume4";
     margin: 0 auto;
     padding-left: 0;
     padding-top: 40px;
-    gap: 25px;
   }
-  .resume__collum-item {
+  .resume__wrapper .resume1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: resume1;
+  }
+  .resume__wrapper .resume2 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: resume2;
+  }
+  .resume__wrapper .resume3 {
     -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2/3;
+    -ms-grid-column: 1;
+    grid-area: resume3;
+  }
+  .resume__wrapper .resume4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: resume4;
+  }
+  @media (max-width: 576px) {
+  .resume__wrapper .resume1 {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+  }
+  .resume__wrapper .resume2 {
+      -ms-grid-row: 3;
+      -ms-grid-column: 1;
+  }
+  .resume__wrapper .resume3 {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+  }
+  .resume__wrapper .resume4 {
+      -ms-grid-row: 4;
+      -ms-grid-column: 1;
+  }
   }
   .resume__descr {
     padding-left: 27px;
@@ -1306,5 +1357,21 @@ li {
   .contacts__title36 {
     margin-top: 5px;
     line-height: 32px;
+  }
+  .resume__collum .resume1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .resume__collum .resume2 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  .resume__collum .resume3 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .resume__collum .resume4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
   }
 }

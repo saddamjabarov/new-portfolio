@@ -266,17 +266,32 @@
     padding-top: 45px;
     &__wrapper {
       grid-template-columns: 300px;
-      justify-content: space-between;
+      grid-template-areas:
+        'resume1' 'resume3'
+        'resume2' 'resume4';
+      .resume1 {
+        grid-area: resume1;
+      }
+      .resume2 {
+        grid-area: resume2;
+      }
+      .resume3 {
+        grid-area: resume3;
+      }
+      .resume4 {
+        grid-area: resume4;
+      }
+      // justify-content: space-between;
       margin: 0 auto;
       padding-left: 0;
       padding-top: 40px;
-      gap: 25px;
     }
-    &__collum {
-      &-item {
-        grid-row: 2/3;
-      }
-    }
+
+    // &__collum {
+    //   &-item {
+    //     grid-row: 2/3;
+    //   }
+    // }
     &__descr {
       padding-left: 27px;
     }
@@ -287,6 +302,7 @@
     }
     &__title36 {
       width: 243px;
+
       font-size: 24px;
     }
     &__divider {

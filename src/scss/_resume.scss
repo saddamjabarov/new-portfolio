@@ -38,8 +38,31 @@
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 413px);
+    grid-template-areas:
+      'resume1' 'resume3'
+      'resume2' 'resume4';
     column-gap: 136px;
   }
+  &__collum {
+    .resume1 {
+      grid-area: resume1;
+    }
+    .resume2 {
+      grid-area: resume2;
+    }
+    .resume3 {
+      grid-area: resume3;
+    }
+    .resume4 {
+      grid-area: resume4;
+    }
+  }
+  // &__collum {
+  //   grid-area: resume1;
+  //   grid-area: resume2;
+  //   grid-area: resume3;
+  //   grid-area: resume4;
+  // }
   &__item {
     position: relative;
     &::before {
