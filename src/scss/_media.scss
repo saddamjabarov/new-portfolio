@@ -99,10 +99,35 @@
       grid-template-columns: repeat(auto-fit, 413px);
       justify-content: center;
       padding-left: 40px;
+      padding-top: 0;
+      margin-top: 25px;
+
+      grid-template-areas:
+        'resume1' 'resume3'
+        'resume2' 'resume4';
+      .resume1 {
+        grid-area: resume1;
+      }
+      .resume2 {
+        grid-area: resume2;
+      }
+      .resume3 {
+        grid-area: resume3;
+      }
+      .resume4 {
+        grid-area: resume4;
+      }
+    }
+    &__title {
+      padding-top: 30px;
+      &::before {
+        top: 39px;
+      }
     }
   }
   .page {
     &__wrapper {
+      padding-left: 26px;
       grid-template-columns: repeat(auto-fit, 270px);
       justify-content: space-between;
     }
@@ -172,6 +197,37 @@
     &__photo {
       width: 94%;
       grid-row: unset;
+    }
+  }
+  .resume {
+    &__collum {
+      row-gap: 25px;
+    }
+    grid-template-columns: 300px;
+    row-gap: 25px;
+    grid-template-areas:
+      'resume1' 'resume3'
+      'resume2' 'resume4';
+    .resume1 {
+      grid-area: resume1;
+    }
+    .resume2 {
+      grid-area: resume2;
+    }
+    .resume3 {
+      grid-area: resume3;
+    }
+    .resume4 {
+      grid-area: resume4;
+    }
+    margin: 0 auto;
+    padding-left: 0;
+    padding-top: 40px;
+    &__title {
+      padding-top: 26px;
+      &::before {
+        top: 34px;
+      }
     }
   }
   .page {
@@ -286,17 +342,10 @@
       padding-top: 40px;
     }
 
-    &__descr {
-      padding-left: 27px;
-    }
     &__title16 {
-      width: 46px;
-      margin-left: 93px;
       font-size: 16px;
     }
     &__title36 {
-      width: 243px;
-
       font-size: 24px;
     }
     &__divider {

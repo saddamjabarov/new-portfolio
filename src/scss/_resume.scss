@@ -57,12 +57,7 @@
       grid-area: resume4;
     }
   }
-  // &__collum {
-  //   grid-area: resume1;
-  //   grid-area: resume2;
-  //   grid-area: resume3;
-  //   grid-area: resume4;
-  // }
+
   &__item {
     position: relative;
     &::before {
@@ -113,6 +108,9 @@
     line-height: 18px;
     color: #000000;
   }
+  &__text {
+    padding-left: 25px;
+  }
   li {
     position: relative;
     &::after {
@@ -126,7 +124,6 @@
     }
   }
   &__descr {
-    padding-left: 45px;
     margin-top: 12px;
     font-weight: 500;
     font-size: 12px;
