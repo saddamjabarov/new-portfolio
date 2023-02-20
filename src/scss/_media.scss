@@ -231,8 +231,8 @@
     padding-top: 10px;
     &__wrapper {
       margin: 0 auto;
-
-      grid-template: 340px auto auto / 1fr;
+      // grid-template: 340px auto auto / 1fr;
+      grid-template: 340px auto auto / 302px;
     }
     &__descr {
       padding-top: 50px;

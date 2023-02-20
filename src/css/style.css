@@ -1159,8 +1159,8 @@ li {
   .about__wrapper {
     margin: 0 auto;
     -ms-grid-rows: 340px auto auto;
-    -ms-grid-columns: 1fr;
-        grid-template: 340px auto auto/1fr;
+    -ms-grid-columns: 302px;
+        grid-template: 340px auto auto/302px;
   }
   .about__descr {
     padding-top: 50px;
