@@ -24,6 +24,9 @@
     }
   }
   .resume {
+    &__descr {
+      margin: 0 auto;
+    }
     &__wrapper {
       padding: 40px 30px 0 30px;
       column-gap: 117px;
@@ -258,7 +261,7 @@
       justify-content: space-between;
       margin: 0 auto;
       padding-left: 0;
-      padding-top: 0;
+      padding-top: 40px;
       gap: 40px;
     }
     &__title16 {
@@ -286,6 +289,13 @@
       grid-template-columns: 300px;
       margin: 0 auto;
       margin-top: 40px;
+      row-gap: 3px;
+      &-title {
+        padding-top: 35px;
+      }
+      &-counter {
+        padding-top: 35px;
+      }
       &-line {
         width: auto;
       }
@@ -294,6 +304,9 @@
       font-size: 24px;
       line-height: 36px;
     }
+  }
+  .portfolio {
+    padding-top: 85px;
   }
   .price {
     &__wrapper {
@@ -330,6 +343,10 @@
     }
     &__btn {
       margin-top: -65px;
+    }
+    &__title36 {
+      margin-top: 5px;
+      line-height: 32px;
     }
   }
 }

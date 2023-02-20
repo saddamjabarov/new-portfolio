@@ -931,6 +931,9 @@ li {
   .about__text {
     width: 520px;
   }
+  .resume__descr {
+    margin: 0 auto;
+  }
   .resume__wrapper {
     padding: 40px 30px 0 30px;
     -webkit-column-gap: 117px;
@@ -1192,7 +1195,7 @@ li {
             justify-content: space-between;
     margin: 0 auto;
     padding-left: 0;
-    padding-top: 0;
+    padding-top: 40px;
     gap: 40px;
   }
   .resume__title16 {
@@ -1221,6 +1224,13 @@ li {
     grid-template-columns: 300px;
     margin: 0 auto;
     margin-top: 40px;
+    row-gap: 3px;
+  }
+  .page__skills-title {
+    padding-top: 35px;
+  }
+  .page__skills-counter {
+    padding-top: 35px;
   }
   .page__skills-line {
     width: auto;
@@ -1228,6 +1238,9 @@ li {
   .page__title36 {
     font-size: 24px;
     line-height: 36px;
+  }
+  .portfolio {
+    padding-top: 85px;
   }
   .price__wrapper {
     margin: 0 auto;
@@ -1270,5 +1283,9 @@ li {
   }
   .contacts__btn {
     margin-top: -65px;
+  }
+  .contacts__title36 {
+    margin-top: 5px;
+    line-height: 32px;
   }
 }
