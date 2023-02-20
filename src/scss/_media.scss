@@ -281,17 +281,11 @@
       .resume4 {
         grid-area: resume4;
       }
-      // justify-content: space-between;
       margin: 0 auto;
       padding-left: 0;
       padding-top: 40px;
     }
 
-    // &__collum {
-    //   &-item {
-    //     grid-row: 2/3;
-    //   }
-    // }
     &__descr {
       padding-left: 27px;
     }
@@ -378,7 +372,7 @@
       margin-top: -65px;
     }
     &__title36 {
-      margin-top: 5px;
+      margin-top: 33px;
       line-height: 32px;
     }
   }
