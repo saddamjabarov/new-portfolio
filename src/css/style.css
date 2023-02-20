@@ -1107,17 +1107,21 @@ li {
             justify-content: center;
   }
   .contacts__wrapper {
-    -ms-grid-columns: 400px;
-    grid-template-columns: 400px;
+    -ms-grid-columns: 651px;
+    grid-template-columns: 651px;
   }
   .contacts__form {
-    -ms-grid-rows: 45px 16px 190px 16px 45px;
-    -ms-grid-columns: 195px;
-        grid-template: 45px 190px 45px/repeat(1, 195px);
+    -ms-grid-rows: 58px 16px 229px 16px 79px;
+    -ms-grid-columns: 315px 16px 315px;
+        grid-template: 58px 229px 79px/repeat(2, 315px);
   }
   .contacts__btn {
     padding: 8px 25px;
     line-height: 16px;
+  }
+  .contacts__photo img {
+    display: block;
+    margin: 0 auto;
   }
   .resume__collum .resume1 {
     -ms-grid-row: 1;

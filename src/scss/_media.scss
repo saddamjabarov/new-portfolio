@@ -157,14 +157,18 @@
   }
   .contacts {
     &__wrapper {
-      grid-template-columns: 400px;
+      grid-template-columns: 651px;
     }
     &__form {
-      grid-template: 45px 190px 45px / repeat(1, 195px);
+      grid-template: 58px 229px 79px / repeat(2, 315px);
     }
     &__btn {
       padding: 8px 25px;
       line-height: 16px;
+    }
+    &__photo img {
+      display: block;
+      margin: 0 auto;
     }
   }
 }
