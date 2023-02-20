@@ -107,7 +107,14 @@
       justify-content: space-between;
     }
     &__skills {
+      row-gap: 20px;
       justify-content: center;
+      &-title {
+        padding-top: 32px;
+      }
+      &-counter {
+        padding-top: 35px;
+      }
     }
   }
   .price {
@@ -231,14 +238,15 @@
     padding-top: 10px;
     &__wrapper {
       margin: 0 auto;
-      // grid-template: 340px auto auto / 1fr;
-      grid-template: 340px auto auto / 302px;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 35px;
     }
     &__descr {
-      padding-top: 50px;
+      padding-top: 0px;
     }
     &__skills {
-      padding-top: 40px;
+      padding-top: 98px;
       grid-template-columns: repeat(1, 260px);
       justify-content: flex-start;
     }
@@ -274,17 +282,15 @@
     }
     &__title16 {
       width: 46px;
-      margin-left: 125px;
+      margin-left: 93px;
       font-size: 16px;
     }
     &__title36 {
       width: 243px;
       font-size: 24px;
-      margin-left: 27px;
     }
     &__divider {
       margin-top: 15px;
-      margin-left: 113px;
     }
     &__subtitle {
       margin-bottom: 5px;

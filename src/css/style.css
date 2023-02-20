@@ -1026,9 +1026,16 @@ li {
             justify-content: space-between;
   }
   .page__skills {
+    row-gap: 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .page__skills-title {
+    padding-top: 32px;
+  }
+  .page__skills-counter {
+    padding-top: 35px;
   }
   .price__wrapper {
     grid-template-columns: repeat(auto-fit, 365px);
@@ -1158,15 +1165,18 @@ li {
   }
   .about__wrapper {
     margin: 0 auto;
-    -ms-grid-rows: 340px auto auto;
-    -ms-grid-columns: 302px;
-        grid-template: 340px auto auto/302px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 35px;
   }
   .about__descr {
-    padding-top: 50px;
+    padding-top: 0px;
   }
   .about__skills {
-    padding-top: 40px;
+    padding-top: 98px;
     -ms-grid-columns: (260px)[1];
     grid-template-columns: repeat(1, 260px);
     -webkit-box-pack: start;
@@ -1208,17 +1218,15 @@ li {
   }
   .resume__title16 {
     width: 46px;
-    margin-left: 125px;
+    margin-left: 93px;
     font-size: 16px;
   }
   .resume__title36 {
     width: 243px;
     font-size: 24px;
-    margin-left: 27px;
   }
   .resume__divider {
     margin-top: 15px;
-    margin-left: 113px;
   }
   .resume__subtitle {
     margin-bottom: 5px;
