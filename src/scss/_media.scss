@@ -68,6 +68,7 @@
     }
     &__form {
       grid-template: 45px 190px 45px / repeat(2, 250px);
+      column-gap: 10px;
     }
   }
 }
